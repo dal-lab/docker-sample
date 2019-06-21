@@ -1,0 +1,7 @@
+version: '3'
+services:
+  api:
+    volumes:
+      - ./api:/u/myapp
+    environment:
+      FLASK_DEBUG: 1
